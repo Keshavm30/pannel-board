@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<style> 
+  select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e6e3e3;
+    border-radius: 5px;
+  }
+  input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+  </style>
+</head>
+<body>
+    <img src="assets/logo.png" alt="LOGO" width="30%"><br><br><br><br>
+    <center>
+    <form class="form-inline" action="form submit.php" method="get">
+        <select name="Board" id="Board" required>
+            <option value="disabled" disabled selected>Select Board</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+            <option value="SSE">SSE</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;
+          <select name="Standard" id="Standard" required>
+            <option value="disabled" disabled selected>Select Standard</option>
+            <option value="Class_1">Class 1</option>
+            <option value="Class_2">Class 2</option>
+            <option value="Class_3">Class 3</option>
+            <option value="Class_4">Class 4</option>
+            <option value="Class_5">Class 5</option>
+            <option value="Class_6">Class 6</option>
+            <option value="Class_7">Class 7</option>
+            <option value="Class_8">Class 8</option>
+            <option value="Class_9">Class 9</option>
+            <option value="Class_10">Class 10</option>
+            
+          </select>
+          &nbsp;&nbsp;&nbsp;
+          <select name="Subject" id="Subject" required>
+            <option value="disabled" disabled selected>Select Subject</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Science">Science</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Social Science">Social Science</option>
+            <option value="English">English</option>
+            <option value="Sanskrit">Sanskrit</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;
+  <input type="submit">
+</center>
+</form>
+</body>
+</html>
